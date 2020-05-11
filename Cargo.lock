@@ -1076,6 +1076,7 @@ dependencies = [
 [[package]]
 name = "twitch-oauth"
 version = "0.1.0"
+source = "git+https://github.com/dagit/twitch-oauth#d7ba9c6cea655c51d828043295cf40cbf81c908b"
 dependencies = [
  "reqwest",
  "serde",

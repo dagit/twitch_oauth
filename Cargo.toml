@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-twitch-oauth = { path = "../twitch-oauth" }
+twitch-oauth = { git = "https://github.com/dagit/twitch-oauth" }
 tokio = { version = "0.2", features = ["full"] }
 async-tungstenite = { version = "0.4.2", features = ["tokio-runtime", "tokio-tls"] }
 tungstenite = "*"
